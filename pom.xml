@@ -17,11 +17,11 @@ language governing permissions and limitations under the License.
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.isisaddons.module.commchannel</groupId>
-    <artifactId>isis-module-commchannel</artifactId>
+    <groupId>org.incode.module.commchannel</groupId>
+    <artifactId>incode-module-commchannel</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>Isis Addons CommChannel Module</name>
+    <name>Incode CommChannel Module</name>
 
     <packaging>pom</packaging>
 
@@ -32,7 +32,7 @@ language governing permissions and limitations under the License.
     <properties>
         <isis.version>1.10.0-SNAPSHOT</isis.version>
 
-        <isis-module-commchannel.version>1.10.0-SNAPSHOT</isis-module-commchannel.version>
+        <incode-module-commchannel.version>1.10.0-SNAPSHOT</incode-module-commchannel.version>
         <assertj-core.version>2.0.0</assertj-core.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -341,23 +341,23 @@ language governing permissions and limitations under the License.
             <!-- this project's own modules -->
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>isis-module-commchannel-dom</artifactId>
-                <version>${isis-module-commchannel.version}</version>
+                <artifactId>incode-module-commchannel-dom</artifactId>
+                <version>${incode-module-commchannel.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>isis-module-commchannel-app</artifactId>
+                <artifactId>incode-module-commchannel-app</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>isis-module-commchannel-fixture</artifactId>
+                <artifactId>incode-module-commchannel-fixture</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>isis-module-commchannel-webapp</artifactId>
+                <artifactId>incode-module-commchannel-webapp</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
 

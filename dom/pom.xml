@@ -17,18 +17,18 @@ Copyright 2014~2015 Dan Haywood
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.isisaddons.module.commchannel</groupId>
-    <artifactId>isis-module-commchannel-dom</artifactId>
+    <groupId>org.incode.module.commchannel</groupId>
+    <artifactId>incode-module-commchannel-dom</artifactId>
     <version>1.10.0-SNAPSHOT</version>
 
     <packaging>jar</packaging>
 
-    <name>Isis Addons CommChannel Module DOM</name>
+    <name>Incode CommChannel Module DOM</name>
     <description>
-        A module providing commchannel.
+        A module providing communication channels (postal addresses, email, fax/phone number).
     </description>
 
-    <url>https://github.com/isisaddons/isis-module-commchannel</url>
+    <url>https://github.com/incodehq/incode-module-commchannel</url>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -37,21 +37,26 @@ Copyright 2014~2015 Dan Haywood
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git@github.com:isisaddons/isis-module-commchannel.git</connection>
-        <developerConnection>scm:git:git@github.com:isisaddons/isis-module-commchannel.git</developerConnection>
-        <url>git@github.com:isisaddons/isis-module-commchannel.git</url>
+        <connection>scm:git:git@github.com:incodehq/incode-module-commchannel.git</connection>
+        <developerConnection>scm:git:git@github.com:incodehq/incode-module-commchannel.git</developerConnection>
+        <url>git@github.com:incodehq/incode-module-commchannel.git</url>
     </scm>
     <developers>
         <developer>
-            <id>danhaywood</id>
+            <id>dhaywood</id>
             <name>Dan Haywood</name>
-            <email>dan@haywood-associates.co.uk</email>
+            <email>dhaywood@incode.org</email>
+        </developer>
+        <developer>
+            <id>jvanderwal</id>
+            <name>Jeroen van der Wal</name>
+            <email>jvanderwal@incode.org</email>
         </developer>
     </developers>
 
     <properties>
-        <compileSource>1.7</compileSource>
-        <compileTarget>1.7</compileTarget>
+        <compileSource>1.8</compileSource>
+        <compileTarget>1.8</compileTarget>
 
         <isis.version>1.10.0-SNAPSHOT</isis.version>
         <isis-module-poly-dom.version>1.9.0</isis-module-poly-dom.version>
