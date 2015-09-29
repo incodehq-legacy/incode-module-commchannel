@@ -19,8 +19,8 @@
         <relativePath />
     </parent>
 
-    <groupId>org.isisaddons.module.commchannel</groupId>
-    <artifactId>isis-module-commchannel-enhance-all</artifactId>
+    <groupId>org.incode.module.commchannel</groupId>
+    <artifactId>incode-module-commchannel-enhance-all</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     
     <packaging>pom</packaging>
@@ -30,7 +30,7 @@
     <description>
         Utility to enhance all JDO projects with a single command:
 
-        mvn -f pom-jdo-enhance-all-dkh.xml datanucleus:enhance -o
+        mvn -f pom-jdo-enhance-all.xml datanucleus:enhance -o
     </description>
 
     <properties>
