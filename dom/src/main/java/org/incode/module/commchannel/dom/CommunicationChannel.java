@@ -62,7 +62,7 @@ import org.incode.module.commchannel.CommChannelModule;
  * postal}, {@link PhoneOrFaxNumber phone/fax} and {@link EmailAddress email}.
  */
 @javax.jdo.annotations.PersistenceCapable(
-        schema = "isiscommchannel",
+        schema = "incodeCommchannel",
         identityType = IdentityType.DATASTORE
 )
 @javax.jdo.annotations.Inheritance(strategy = InheritanceStrategy.NEW_TABLE)

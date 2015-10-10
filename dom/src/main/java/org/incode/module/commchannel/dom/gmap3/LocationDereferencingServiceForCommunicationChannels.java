@@ -20,14 +20,15 @@ import org.apache.isis.applib.annotation.DomainService;
 import org.apache.isis.applib.annotation.NatureOfService;
 import org.apache.isis.applib.annotation.Programmatic;
 
-import org.isisaddons.wicket.gmap3.cpt.applib.LocationDereferencingService;
-
 import org.incode.module.commchannel.dom.CommunicationChannel;
 
+/**
+ * backported to 1.9.0, this service is no longer available.
+ */
 @DomainService(
         nature = NatureOfService.DOMAIN
 )
-public class LocationDereferencingServiceForCommunicationChannels implements LocationDereferencingService {
+public class LocationDereferencingServiceForCommunicationChannels /*implements LocationDereferencingService*/ {
 
     @Programmatic
 	public Object dereference(final Object locatable) {

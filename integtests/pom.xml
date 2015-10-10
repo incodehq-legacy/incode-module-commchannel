@@ -45,12 +45,10 @@ Copyright 2014~2015 Dan Haywood
     </build>
     <dependencies>
 
-        <!-- other modules in this project -->
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>incode-module-commchannel-fixture</artifactId>
         </dependency>
-
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>incode-module-commchannel-app</artifactId>
@@ -60,7 +58,6 @@ Copyright 2014~2015 Dan Haywood
             <groupId>org.apache.isis.core</groupId>
             <artifactId>isis-core-unittestsupport</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.apache.isis.core</groupId>
             <artifactId>isis-core-integtestsupport</artifactId>
@@ -86,8 +83,20 @@ Copyright 2014~2015 Dan Haywood
         </dependency>
 
         <dependency>
+            <groupId>org.isisaddons.module.fakedata</groupId>
+            <artifactId>isis-module-fakedata-dom</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.danhaywood.java</groupId>
+            <artifactId>danhaywood-java-assertjext</artifactId>
             <scope>test</scope>
         </dependency>
 

@@ -39,7 +39,7 @@ import org.isisaddons.module.poly.dom.PolymorphicAssociationLink;
 import org.incode.module.commchannel.CommChannelModule;
 
 @javax.jdo.annotations.PersistenceCapable(
-        schema = "isiscommchannel",
+        schema = "incodeCommchannel",
         identityType=IdentityType.DATASTORE
 )
 @javax.jdo.annotations.DatastoreIdentity(strategy = IdGeneratorStrategy.IDENTITY, column = "id")
